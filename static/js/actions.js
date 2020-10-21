@@ -99,7 +99,7 @@ const Actions = [{
     }
   },
   {
-    lifeTime: 1200,
+    lifeTime: 120,
     texts: [{
       text: '1',
       hsla: color1
