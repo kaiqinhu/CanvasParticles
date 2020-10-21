@@ -20,14 +20,14 @@ const color3 = {
 const points1 = [];
 const points2 = [];
 const Actions = [{
-    lifeTime: 60,
+    lifeTime: 120,
     texts: [{
       text: '3',
       hsla: color1
     }]
   },
   {
-    lifeTime: 90,
+    lifeTime: 180,
     func: (width, height) => {
       if(!points1.length){
         for(let i=0;i<1200;i++){
@@ -55,14 +55,14 @@ const Actions = [{
     }
   },
   {
-    lifeTime: 60,
+    lifeTime: 120,
     texts: [{
       text: '2',
       hsla: color1
     }]
   },
   {
-    lifeTime: 90,
+    lifeTime: 180,
     func: (width, height) => {
       if(!points2.length){
         const img = document.getElementById("tulip");
@@ -99,7 +99,7 @@ const Actions = [{
     }
   },
   {
-    lifeTime: 60,
+    lifeTime: 1200,
     texts: [{
       text: '1',
       hsla: color1
@@ -108,7 +108,7 @@ const Actions = [{
   {
     lifeTime: 180,
     texts: [{
-        text: 'I',
+        text: 'Happy',
         hsla: color2
       },
       {
